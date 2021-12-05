@@ -75,9 +75,9 @@
             <li class="one_quarter first"><a href="#"><img src="../images/24.jpg" alt="img5" style="height: 250px;width:550px;"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/27.jpg" alt="img6" style="height: 250px;width:550px;"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/7.jpg" alt="img7" style="height: 250px;width:550px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/6.jpg" alt="img8" style="height: 250px;"></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/9.jpg" alt="img9" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/5.jpg" alt="img10" style="height: 250px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/6.jpg" alt="img8" style="height: 250px;width:550px"></a></li>
+            <li class="one_quarter first"><a href="#"><img src="../images/9.jpg" alt="img9" style="height: 250px;width:550px"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/5.jpg" alt="img10" style="height: 250px;width:550px"></a></li>
           </ul>
           <figcaption>The Above images are all endangered animals..</figcaption>
         </figure>
