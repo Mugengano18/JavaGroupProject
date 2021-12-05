@@ -68,13 +68,13 @@
         <figure>
           <header class="heading">All endangered Animals</header>
           <ul class="nospace clear">
-            <li class="one_quarter first"><a href="#"><img src="../images/10.jpg" alt="img1" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/11.jpg" alt="img2" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/19.jpg" alt="img3" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/14.jpg" alt="img4" style="height: 250px;"></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/24.jpg" alt="img5" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/27.jpg" alt="img6" style="height: 250px;"></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/7.jpg" alt="img7" style="height: 250px;"></a></li>
+            <li class="one_quarter first"><a href="#"><img src="../images/10.jpg" alt="img1" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/11.jpg" alt="img2" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/19.jpg" alt="img3" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/14.jpg" alt="img4" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter first"><a href="#"><img src="../images/24.jpg" alt="img5" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/27.jpg" alt="img6" style="height: 250px;width:550px;"></a></li>
+            <li class="one_quarter"><a href="#"><img src="../images/7.jpg" alt="img7" style="height: 250px;width:550px;"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/6.jpg" alt="img8" style="height: 250px;"></a></li>
             <li class="one_quarter first"><a href="#"><img src="../images/9.jpg" alt="img9" style="height: 250px;"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/5.jpg" alt="img10" style="height: 250px;"></a></li>
