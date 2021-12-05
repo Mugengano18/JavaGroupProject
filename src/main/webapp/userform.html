@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>UserForm</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<div class="bgded" style="background-image:url(https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80);"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="home.jsp">Wildlife</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          <li><a href="home.jsp">Home</a></li>
+          <li class="active"><a href="Conservation.jsp">Solutions</a></li>
+          <li><a class="drop" href="#">Animals</a>
+            <ul>
+              <li><a href="Endangered.jsp">Endangered Animals</a></li>
+              <li><a href="Animals.jsp">Animals in rwanda</a></li>
+              
+            </ul>
+          </li>
+           
+          <li><a href="LoginForm.jsp">Login</a></li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="overlay">
+    <div id="breadcrumb" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <h6 class="heading">Full Width</h6>
+      <ul>
+        <li><a href="home.jsp">Home</a></li>
+        <li class="active"><a href="conservation.jsp">Endangered</a></li>      
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+</div class="wrapper row2">
+
+<form action="adduser.jsp" method="post">  
+<table>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Gender:</td><td>  
+<input type="radio" name="gender" value="male"/>Male   
+<input type="radio" name="gender" value="female"/>Female </td></tr> 
+<tr><td>Group:</td><td>  
+<input type="text" name="type"/></td></tr>  
+<tr><td>health:</td><td><textarea id="w3review" name="health" rows="4" cols="50"></textarea></td></tr>  
+ 
+<tr><td>location:</td><td>  
+<select name="location" style="width:155px">  
+<option>Akagera Park</option>  
+<option>Nyungwe</option>  
+<option>Volcanoes</option>  
+<option>Gishwati park</option>  
+<option>imfura park</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Add animal" class="btn btn-primary"/></td></tr>
+<tr><td><a class="btn btn-primary" href="viewusers.jsp" role="button">View animals</a></td></tr>  
+</table>  
+</form> 
+
+<div>
+
+
+
+</div>
+
+
+
+
+<div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    
+    <div class="one_quarter">
+      <h6 class="heading">Fermentum pellentesque</h6>
+      <p class="nospace btmspace-15">Pede ullamcorper facilisis bibendum nulla elit gravida elit vel suscipit urna.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Nisi nunc velit aliquam</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <p class="nospace btmspace-10"><a href="#">Sapien sit amet tortor nulla vulputate odio in varius tristique nisi urna.</a></p>
+            <time class="block font-xs" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+          </article>
+        </li>
+        <li>
+          <article>
+            <p class="nospace btmspace-10"><a href="#">Consequat erat id rutrum nisi magna vel tellus phasellus malesuada bibendum.</a></p>
+            <time class="block font-xs" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../scripts/jquery.min.js"></script>
+<script src="../scripts/jquery.backtotop.js"></script>
+<script src="../scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

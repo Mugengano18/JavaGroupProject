@@ -1,0 +1,43 @@
+ <!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">  
+<title>Edit Form</title>  
+</head>  
+<body>  
+<%@page import="jspCrud.UserDao,jspCrud.User"%>  
+  
+<%  
+String id=request.getParameter("id");  
+User u=UserDao.getRecordById(Integer.parseInt(id));  
+%>  
+  
+<h1>Edit Form</h1>  
+<form action="edituser.jsp" method="post">  
+<input type="hidden" name="id" value="<%=u.getId() %>"/>  
+<table>  
+<tr><td>Name:</td><td>  
+<input type="text" name="name" value="<%= u.getName()%>"/></td></tr>
+<tr><td>Gender:</td><td>  
+<input type="radio" name="sex" value="male"/>Male   
+<input type="radio" name="sex" value="female"/>Female </td></tr>   
+<tr><td>Type:</td><td>  
+<input type="text" name="type" value="<%= u.getType()%>"/></td></tr>  
+<tr><td>Health:</td><td>  
+<input type="text" name="health" value="<%= u.getHealth()%>"/></td></tr>  
+<tr><td>location:</td><td>  
+<select name="location">  
+<option>India</option>  
+<option>Pakistan</option>  
+<option>Afghanistan</option>  
+<option>Berma</option>  
+<option>Other</option>  
+</select>
+  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Edit Animal"/></td></tr>  
+</table>  
+</form>  
+  
+</body>  
+</html>
