@@ -25,7 +25,7 @@
         <!-- ################################################################################################ -->
         <ul class="clear">
           <li><a href="home.jsp">Home</a></li>
-          <li><a href="Conservation.jsp">Solutions</a></li>
+          <li><a href="conservation.jsp">Solutions</a></li>
           <li><a class="drop" href="#">Animals</a>
             <ul>
               <li class="active"><a href="Endangered.jsp">Endangered Animals</a></li>
