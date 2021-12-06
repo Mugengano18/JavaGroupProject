@@ -85,9 +85,9 @@ if(session.getAttribute("username")==null){
         <li class="one_third first">
           <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img1"></a>
             <figcaption>
-              <h6 class="heading">Stop the Superhighway!</h6>
+              <h6 class="heading">Food Security</h6>
               <div>
-                <p>Nigeria's Cross River State is planning a superhighway that would destroy rainforest habitat for some of the most endangered species on Earth, including forest elephants and Cross River gorillas.</p>
+                <p>One compelling benefit that comes from wildlife conservation efforts is that it ensures food security. Protecting forests from deforestation and rebuilding forest habitats to preserve biodiversity aids in the carbon-sequestering process, provides new economic opportunities, and guards against erosion.</p>
               </div>
             </figcaption>
           </figure>
@@ -95,9 +95,9 @@ if(session.getAttribute("username")==null){
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img2"></a>
             <figcaption>
-              <h6 class="heading">Co-existence ,the way forward</h6>
+              <h6 class="heading">Public Health</h6>
               <div>
-                <p>Rewilding can create favourable conditions for the spontaneous comeback of numerous wildlife species – this is by far the most important tool for wildlife recovery in our operational areas.</p>
+                <p>Another compelling benefit that comes from wildlife conservation is that these initiatives protect human health. Conservation International reports that “more than 50 percent of modern medicines and more than 90 percent of traditional medicines come from wild plants and animals.” These traditional medicines thereby represent an essential pharmacopeia and body of medical knowledge that cannot be replaced easily by synthetic alternatives.</p>
               </div>
             </figcaption>
           </figure>
@@ -105,9 +105,9 @@ if(session.getAttribute("username")==null){
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img3"></a>
             <figcaption>
-              <h6 class="heading">Wildlife comeback in our rewilding areas</h6>
+              <h6 class="heading">Creating Opportunity</h6>
               <div>
-                <p>At a species level we have observed a stable or slight increase in the brown bear populations of the Velebit Mountains and Southern Carpathians, while the first bear sightings have also been recorded in the Rhodope Mountains. Iberian wolves are returning to the Greater Côa Valley in Portugal, while the Oder Delta sees the comeback of Elk and European bison</p>
+                <p>Perhaps the most compelling benefit that comes from wildlife conservation is that it provides us with opportunity, whether it be economically, socially, or culturally.</p>
               </div>
             </figcaption>
           </figure>
@@ -158,7 +158,9 @@ if(session.getAttribute("username")==null){
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-
+<%
+String id = request.getParameter("id");
+%>
 <div class="bgded" style="background-color:white;">
   <figure class="hoc container clear imgroup"> 
     <!-- ################################################################################################ -->
@@ -167,12 +169,12 @@ if(session.getAttribute("username")==null){
       <p class="heading underline font-x2">Endangered animals</p>
     </figcaption>
     <ul class="nospace group" >
-      <li class="one_third"><a class="imgover" href="#"><img src="images/14.jpg" alt="img4" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="images/18.jpg" alt="img5" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="images/15.jpg" alt="img6" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="images/12.jpg" alt="img7" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="images/7.jpg" alt="img8" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="images/photo2.jpg" alt="img9" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/14.jpg" alt="img4" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/18.jpg" alt="img5" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/15.jpg" alt="img6" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/12.jpg" alt="img7" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/7.jpg" alt="img8" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="../images/photo2.jpg" alt="img9" style="height: 250px;"></a></li>
     </ul>
     <!-- ################################################################################################ -->
   </figure>
@@ -217,7 +219,7 @@ if(session.getAttribute("username")==null){
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved -</p>
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved </p>
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -230,4 +232,115 @@ if(session.getAttribute("username")==null){
 <script src="../scripts/jquery.backtotop.js"></script>
 <script src="../scripts/jquery.mobilemenu.js"></script>
 </body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table_responsive {
+    max-width: 900px;
+    border: 1px solid #2bf75e;
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+table>thead {
+    background-color: #2bf75e;
+    color: #fff;
+}
+
+table>thead th {
+    padding: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #00000017;
+    padding: 10px 15px;
+}
+
+table>tbody>tr>td>img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 6px #0003;
+}
+
+
+.action_btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action_btn>a {
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    border: 1px solid;
+    display: inline-block;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.action_btn>a:nth-child(1) {
+    border-color: #2bf75e;
+}
+
+.action_btn>a:nth-child(2) {
+    border-color: #2bf75e;
+}
+
+.action_btn>a:hover {
+    box-shadow: 0 3px 8px #0003;
+}
+
+
+table>tbody>tr {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+
+table>tbody>tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}
+
+table>tbody>tr:hover{
+    filter: drop-shadow(0px 2px 6px #0002);
+}
+.btn, .btn.inverse:hover{
+color:#FFFFFF; 
+background-color:#51bd3c; 
+border-color:#51bd3c;
+}
+.btn:hover, .btn.inverse{
+color:inherit; 
+background-color:transparent;
+ border-color:inherit;}
+</style>
 </html>

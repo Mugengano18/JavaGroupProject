@@ -65,9 +65,9 @@
         <li class="one_third first">
           <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img1"></a>
             <figcaption>
-              <h6 class="heading">Stop the Superhighway!</h6>
+              <h6 class="heading">Food Security</h6>
               <div>
-                <p>Nigeria's Cross River State is planning a superhighway that would destroy rainforest habitat for some of the most endangered species on Earth, including forest elephants and Cross River gorillas.</p>
+                <p>One compelling benefit that comes from wildlife conservation efforts is that it ensures food security. Protecting forests from deforestation and rebuilding forest habitats to preserve biodiversity aids in the carbon-sequestering process, provides new economic opportunities, and guards against erosion.</p>
               </div>
             </figcaption>
           </figure>
@@ -75,9 +75,9 @@
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img2"></a>
             <figcaption>
-              <h6 class="heading">Co-existence ,the way forward</h6>
+              <h6 class="heading">Public Health</h6>
               <div>
-                <p>Rewilding can create favourable conditions for the spontaneous comeback of numerous wildlife species – this is by far the most important tool for wildlife recovery in our operational areas.</p>
+                <p>Another compelling benefit that comes from wildlife conservation is that these initiatives protect human health. Conservation International reports that “more than 50 percent of modern medicines and more than 90 percent of traditional medicines come from wild plants and animals.” These traditional medicines thereby represent an essential pharmacopeia and body of medical knowledge that cannot be replaced easily by synthetic alternatives.</p>
               </div>
             </figcaption>
           </figure>
@@ -85,9 +85,9 @@
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img3"></a>
             <figcaption>
-              <h6 class="heading">Wildlife comeback in our rewilding areas</h6>
+              <h6 class="heading">Creating Opportunity</h6>
               <div>
-                <p>At a species level we have observed a stable or slight increase in the brown bear populations of the Velebit Mountains and Southern Carpathians, while the first bear sightings have also been recorded in the Rhodope Mountains. Iberian wolves are returning to the Greater Côa Valley in Portugal, while the Oder Delta sees the comeback of Elk and European bison</p>
+                <p>Perhaps the most compelling benefit that comes from wildlife conservation is that it provides us with opportunity, whether it be economically, socially, or culturally.</p>
               </div>
             </figcaption>
           </figure>

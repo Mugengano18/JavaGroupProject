@@ -8,7 +8,7 @@
 <link href="../css/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
-<body id="top">
+<body>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
@@ -58,15 +58,49 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+
+<div class="data">
+<%@page import="jspCrud.UserDao,jspCrud.*,java.util.*"%>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>  
+  
+  
+ <%  
+List<User> list=UserDao.getAllRecords();  
+request.setAttribute("list",list);  
+%>  
+<header class="heading" style="font-size:40px;color:black; text-Align:center;">All endangered Animals</header>
+ <div class="table_responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Group</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <c:forEach items="${list}" var="u"> 
+          <tbody>
+            <tr>
+              <td>${u.getName()}</td>
+              <td>${u.getType()}</td>
+              <td>${u.getLocation()}</td>
+            </tr>
+          </c:forEach>
+          </tbody>
+        </table>
+      </div>
+</div>
 <div class="wrapper row3">
   <main class="hoc container clear"> 
+  
+  
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="gallery">
         <figure>
-          <header class="heading">All endangered Animals</header>
+          
           <ul class="nospace clear">
             <li class="one_quarter first"><a href="#"><img src="../images/10.jpg" alt="img1" style="height: 250px;width:550px;"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/11.jpg" alt="img2" style="height: 250px;width:550px;"></a></li>
@@ -129,4 +163,15 @@
 <script src="../scripts/jquery.backtotop.js"></script>
 <script src="../scripts/jquery.mobilemenu.js"></script>
 </body>
+<style>
+.table_responsive{
+background-color:white;
+margin:40px
+}
+.data{
+background-color:white;
+
+
+}
+</style>
 </html>
