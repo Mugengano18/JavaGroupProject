@@ -32,9 +32,9 @@ if(session.getAttribute("username")==null){
         <ul class="clear">
           <li class="active"><a href="home.jsp">Home</a></li>
          <li><a href="conservation.jsp">Solutions</a></li>
-          <li><a class="drop" href="#">Pages</a>
+          <li><a class="drop" href="#">Animals</a>
             <ul>
-              <li><a href="adduserform.jsp">Endangered Animals</a></li>
+              <li><a href="Endangered.jsp">Endangered Animals</a></li>
               
             </ul>
             
@@ -83,7 +83,7 @@ if(session.getAttribute("username")==null){
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img1"></a>
+          <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img1"></a>
             <figcaption>
               <h6 class="heading">Stop the Superhighway!</h6>
               <div>
@@ -93,7 +93,7 @@ if(session.getAttribute("username")==null){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img2"></a>
+          <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img2"></a>
             <figcaption>
               <h6 class="heading">Co-existence ,the way forward</h6>
               <div>
@@ -103,7 +103,7 @@ if(session.getAttribute("username")==null){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="../images/4.jpg" alt="img3"></a>
+          <figure><a class="imgover" href="#"><img src="images/4.jpg" alt="img3"></a>
             <figcaption>
               <h6 class="heading">Wildlife comeback in our rewilding areas</h6>
               <div>
@@ -167,12 +167,12 @@ if(session.getAttribute("username")==null){
       <p class="heading underline font-x2">Endangered animals</p>
     </figcaption>
     <ul class="nospace group" >
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/14.jpg" alt="img4" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/18.jpg" alt="img5" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/15.jpg" alt="img6" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/12.jpg" alt="img7" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/7.jpg" alt="img8" style="height: 250px;"></a></li>
-      <li class="one_third"><a class="imgover" href="#"><img src="../images/photo2.jpg" alt="img9" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/14.jpg" alt="img4" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/18.jpg" alt="img5" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/15.jpg" alt="img6" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/12.jpg" alt="img7" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/7.jpg" alt="img8" style="height: 250px;"></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/photo2.jpg" alt="img9" style="height: 250px;"></a></li>
     </ul>
     <!-- ################################################################################################ -->
   </figure>

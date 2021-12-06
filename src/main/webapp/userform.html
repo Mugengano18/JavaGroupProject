@@ -19,107 +19,66 @@
       <nav id="mainav" class="fl_right"> 
         <!-- ################################################################################################ -->
         <ul class="clear">
-          <li><a href="home.jsp">Home</a></li>
-          <li class="active"><a href="Conservation.jsp">Solutions</a></li>
+          <li><a href="folder/home.jsp">Home</a></li>
+          <li class="active"><a href="folder/Conservation.jsp">Solutions</a></li>
           <li><a class="drop" href="#">Animals</a>
             <ul>
               <li><a href="Endangered.jsp">Endangered Animals</a></li>
-              <li><a href="Animals.jsp">Animals in rwanda</a></li>
               
             </ul>
           </li>
            
-          <li><a href="LoginForm.jsp">Login</a></li>
+          <li><a href="LoginForm.jsp">Logout</a></li>
         </ul>
         <!-- ################################################################################################ -->
       </nav>
     </header>
-  </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="overlay">
-    <div id="breadcrumb" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <h6 class="heading">Full Width</h6>
-      <ul>
-        <li><a href="home.jsp">Home</a></li>
-        <li class="active"><a href="conservation.jsp">Endangered</a></li>      
-      </ul>
-      <!-- ################################################################################################ -->
-    </div>
-  </div>
-  <!-- ################################################################################################ -->
-</div class="wrapper row2">
-
-<form action="adduser.jsp" method="post">  
-<table>  
-<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
-<tr><td>Gender:</td><td>  
-<input type="radio" name="gender" value="male"/>Male   
-<input type="radio" name="gender" value="female"/>Female </td></tr> 
-<tr><td>Group:</td><td>  
-<input type="text" name="type"/></td></tr>  
-<tr><td>health:</td><td><textarea id="w3review" name="health" rows="4" cols="50"></textarea></td></tr>  
- 
-<tr><td>location:</td><td>  
-<select name="location" style="width:155px">  
-<option>Akagera Park</option>  
-<option>Nyungwe</option>  
-<option>Volcanoes</option>  
-<option>Gishwati park</option>  
-<option>imfura park</option>  
-</select>  
-</td></tr>  
-<tr><td colspan="2"><input type="submit" value="Add animal" class="btn btn-primary"/></td></tr>
-<tr><td><a class="btn btn-primary" href="viewusers.jsp" role="button">View animals</a></td></tr>  
-</table>  
-</form> 
-
-<div>
-
-
-
-</div>
-
-
-
-
-<div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
     
-    <div class="one_quarter">
-      <h6 class="heading">Fermentum pellentesque</h6>
-      <p class="nospace btmspace-15">Pede ullamcorper facilisis bibendum nulla elit gravida elit vel suscipit urna.</p>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+    <form action="Logout">
+<input type="submit" value="Logout" style="visibility:hidden;">
+</form>
+  </div>
+  
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+<div class="wrapper2">
+    <div class="title">
+      Enter An Animal
     </div>
-    <div class="one_quarter">
-      <h6 class="heading">Nisi nunc velit aliquam</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <p class="nospace btmspace-10"><a href="#">Sapien sit amet tortor nulla vulputate odio in varius tristique nisi urna.</a></p>
-            <time class="block font-xs" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-          </article>
-        </li>
-        <li>
-          <article>
-            <p class="nospace btmspace-10"><a href="#">Consequat erat id rutrum nisi magna vel tellus phasellus malesuada bibendum.</a></p>
-            <time class="block font-xs" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-          </article>
-        </li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
+    <div class="form" >
+    <form action="adduser.jsp" method="post">
+    <div class="inputfield">
+          <label>Name</label>
+          <input type="text" class="input" name="name">
+       </div>   
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select name="gender">
+              <option value="male" name="gender">Male</option>
+              <option value="female" name="gender">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Group</label>
+          <input type="text" class="input" name="type">
+       </div> 
+      <div class="inputfield">
+          <label>Health</label>
+          <textarea class="textarea" name="health"></textarea>
+       </div> 
+      <div class="inputfield">
+          <label>Location</label>
+          <input type="text" class="input" name="location">
+       </div> 
+      <div class="inputfield">
+        <input type="submit" class="btn" value="Add animal">
+        <a class="btn btn-primary" href="viewusers.jsp" role="button" id="view">View animals</a>
+      </div>
+    </form> 	
+</div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -127,8 +86,7 @@
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved</p>
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -141,4 +99,187 @@
 <script src="../scripts/jquery.backtotop.js"></script>
 <script src="../scripts/jquery.mobilemenu.js"></script>
 </body>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  padding: 0 10px;
+}
+.wrapper2{
+  max-width: 500px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.wrapper2 .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper2 .form{
+  width: 100%;
+}
+
+.wrapper2 .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper2 .form .inputfield label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapper2 .form .inputfield .input,
+.wrapper2 .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper2 .form .inputfield .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper2 .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper2 .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper2 .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapper2 .form .inputfield .input:focus,
+.wrapper2 .form .inputfield .textarea:focus,
+.wrapper2 .form .inputfield .custom_select select:focus{
+  border: 1px solid #131413;
+}
+
+.wrapper2 .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapper2 .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapper2 .form .inputfield .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper2 .form .inputfield .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #41f05e;
+  display: block;
+  position: relative;
+}
+.wrapper2 .form .inputfield .check .checkmark:before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.wrapper2 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #41f05e;
+}
+
+.wrapper2 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.wrapper2 .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #41f05e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin: 50px;
+}
+#view{
+    display: inline;
+    text-decoration: none;
+}
+
+.wrapper2 .form .inputfield .btn:hover{
+  background: #bbc4bc;
+}
+
+.wrapper2 .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapper2 .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper2 .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper2 .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+</style>
 </html>

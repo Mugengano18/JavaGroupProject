@@ -90,7 +90,6 @@
           <li><a class="drop" href="#">Pages</a>
             <ul>
               <li><a href="Endangered.jsp">Endangered Animals</a></li>
-              <li><a href="Animals.jsp">Animals in rwanda</a></li>
               
             </ul>
           </li>
@@ -126,32 +125,11 @@
   
 </div>
 
-<div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    
-    <div class="one_quarter">
-      <h6 class="heading">Want to Ask?</h6>
-      <p class="nospace btmspace-15">Subscribe to our newsletter..</p>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved -</p>
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved</p>
     <!-- ################################################################################################ -->
   </div>
 </div>
