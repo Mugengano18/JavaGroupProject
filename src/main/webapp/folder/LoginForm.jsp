@@ -87,7 +87,7 @@
         <ul class="clear">
           <li><a href="home.jsp">Home</a></li>
           <li><a href="Conservation.jsp">Solutions</a></li>
-          <li><a class="drop" href="#">Pages</a>
+          <li><a class="drop" href="#">Animal</a>
             <ul>
               <li><a href="Endangered.jsp">Endangered Animals</a></li>
               
